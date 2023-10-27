@@ -1,0 +1,29 @@
+{
+  "name": "@enymo/ts-nullsafe",
+  "version": "0.0.0",
+  "description": "Minimal library for implementing null-safety with typescript.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "tsup": {
+    "entry": [
+      "src/js/index.ts"
+    ],
+    "format": ["esm", "cjs"],
+    "dts": true
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enymo/ts-nullsafe.git"
+  },
+  "author": "enymo GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^6.2.2",
+    "typescript": "^4.7.4",
+    "postcss": "^8.4.17"
+  }
+}

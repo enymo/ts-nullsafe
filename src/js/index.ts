@@ -8,3 +8,7 @@ export function requireNotNull<T>(value: T, reason?: string): NonNullable<T> {
     }
     throw new Error(reason ?? "value must not be null");
 }
+
+export function assertNotNull<T>(value: T, reason?: string): asserts value is NonNullable<T> {
+    requireNotNull(value, reason);
+}

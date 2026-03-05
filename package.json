@@ -1,6 +1,6 @@
 {
   "name": "@enymo/ts-nullsafe",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Minimal library for implementing null-safety with typescript.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
